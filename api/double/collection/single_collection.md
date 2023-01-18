@@ -18,9 +18,10 @@ request example:
 - nft_owner: The owner the the NFT.
 - nft_renter: The renter of the NFT.
 - nft_type:  Both 'common doNFT' and 'vNFT' are doNFT. The user with a doNFT has the right to use the original NFT for a specified period of time.
-  - "0" : oNFT(Original NFT), used to distinguish doNFT, which is the ERC-721 standard NFT that the user already has.
-  - "1" : Common doNFT, split from vNFT
-  - "2" : vNFT, Lender stakes an NFT into a Double contract, and will receive an vNFT as a certificate to redeem the original NFT.
+  - "0" : ERC-721 oNFT(Original NFT), used to distinguish doNFT, which is the ERC-721 standard NFT that the user already has.
+  - "1" : ERC-721 Common doNFT, split from vNFT
+  - "2" : ERC-721 vNFT, Lender stakes an NFT into a Double contract, and will receive an vNFT as a certificate to redeem the original NFT.
+  - "3" : ERC-1155 NFT
 - start_timestamp: The start Time of doNFT, UNIX timestamp(second).
 - end_timestamp: The end Time of doNFT, UNIX timestamp(second) .
 - is_on_lent: 

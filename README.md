@@ -16,10 +16,10 @@ Double API is in beta.
 
 ## API
 - [/api/double/config/all](./api/double/config/all.md) : Get basic config.
-- [/api/double/market/open_collection_list](./api/double/market/open_collection_list.md) : Get the open collection list.
-- [/api/user/nft/all](./api/user/nft/all.md) : Get the NFTs of the user.
-- [/api/double/market/collection](./api/double/market/collection.md) : Get the listing NFTs by collection.
+- [/api/user/nft_owner/all](./api/user/nft_owner/all.md) : Get the NFTs of the user.
+- [/api/double/collection/single_collection](./api/double/collection/single_collection.md) : Get the listing NFTs by collection.
 - [/api/double/market/detail](./api/double/market/detail.md) :Get the detail information of the NFT.
+- [/api/double/activity/activity_records](./api/double/activity/activity_records.md) : Get the NFTs activities.
 
 ## Error Code
 - 0: No error
